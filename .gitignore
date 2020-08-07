@@ -1,0 +1,12 @@
+//Roms and other stuff
+*.sfc
+*.bs
+*.srm
+*.z**
+!*.zip
+
+//No screenshots please
+*.png
+
+//No HxD rom backups
+*.bak
