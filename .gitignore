@@ -10,3 +10,4 @@
 
 //No HxD rom backups
 *.bak
+atlas/log.log
