@@ -11,3 +11,7 @@
 //No HxD rom backups
 *.bak
 atlas/log.log
+atlas/BSFE1Eng.ips
+atlas/BSFE2Eng.ips
+atlas/BSFE3Eng.ips
+atlas/BSFE4Eng.ips
