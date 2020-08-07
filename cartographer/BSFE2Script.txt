@@ -1718,7 +1718,27 @@ HP   /[X]
 ぎょくざのせいあつ[X]
 
 
-//BLOCK #018 NAME:		Stat Booster Usage Messages
+//BLOCK #018 NAME:		Phase Messages
+
+//POINTER #0 @ $5D152 - STRING #0 @ $5D158
+
+#W16($5D152)
+//PLAYER[X]
+
+
+//POINTER #1 @ $5D154 - STRING #1 @ $5D166
+
+#W16($5D154)
+//ENEMY[X]
+
+
+//POINTER #2 @ $5D156 - STRING #2 @ $5D172
+
+#W16($5D156)
+//ぞうえんぶたいが あらわれた![X]
+
+
+//BLOCK #019 NAME:		Stat Booster Usage Messages
 
 //POINTER #0 @ $5D192 - STRING #0 @ $5D1B0
 
@@ -1829,7 +1849,7 @@ HP   /[X]
 ╚─────────────────╝[X]
 
 
-//BLOCK #019 NAME:		Character Names
+//BLOCK #020 NAME:		Character Names
 
 //POINTER #0 @ $5D6BA - STRING #0 @ $5D7DC
 
@@ -2701,7 +2721,7 @@ HP   /[X]
 //だっそう兵[X]
 
 
-//BLOCK #020 NAME:		Class Names
+//BLOCK #021 NAME:		Class Names
 
 //POINTER #0 @ $5DDAE - STRING #0 @ $5DE08
 
@@ -2973,7 +2993,7 @@ HP   /[X]
 //まりゅう[X]
 
 
-//BLOCK #021 NAME:		Item Names
+//BLOCK #022 NAME:		Item Names
 
 //POINTER #0 @ $5DFD6 - STRING #0 @ $5E0D4
 
@@ -3737,7 +3757,7 @@ HP   /[X]
 //ほしのオーブ[X]
 
 
-//BLOCK #022 NAME:		Item Descriptions
+//BLOCK #023 NAME:		Item Descriptions
 
 //POINTER #0 @ $5E7A2 - STRING #0 @ $5E8A4
 
@@ -4875,7 +4895,7 @@ LV10で[N]
 あかし[X]
 
 
-//BLOCK #023 NAME:		Terrain Descriptions
+//BLOCK #024 NAME:		Terrain Descriptions
 
 //POINTER #0 @ $5F50C - STRING #0 @ $5F650
 
@@ -6036,7 +6056,7 @@ LV10で[N]
 <$F9><$00>ひ :25[X]
 
 
-//BLOCK #024 NAME:		Door Opening
+//BLOCK #025 NAME:		Door Opening
 
 //POINTER #0 @ $5F9B4 - STRING #0 @ $5F9B6
 
@@ -6048,7 +6068,7 @@ LV10で[N]
 ╚────────────╝[X]
 
 
-//BLOCK #025 NAME:		Dialogue
+//BLOCK #026 NAME:		Dialogue
 
 //POINTER #0 @ $71213 - STRING #0 @ $7182E
 

@@ -5243,7 +5243,27 @@ LV10で[N]
 ぎょくざのせいあつ[X]
 
 
-//BLOCK #011 NAME:		Map Menu and Submenus
+//BLOCK #011 NAME:		Phase Messages
+
+//POINTER #0 @ $5D116 - STRING #0 @ $5D11C
+
+#W16($5D116)
+//PLAYER[X]
+
+
+//POINTER #1 @ $5D118 - STRING #1 @ $5D12A
+
+#W16($5D118)
+//ENEMY[X]
+
+
+//POINTER #2 @ $5D11A - STRING #2 @ $5D136
+
+#W16($5D11A)
+//ぞうえんぶたいが あらわれた![X]
+
+
+//BLOCK #012 NAME:		Map Menu and Submenus
 
 //POINTER #0 @ $5A02E - STRING #0 @ $5A04A
 
@@ -5403,7 +5423,7 @@ LV10で[N]
 ╚──────────────────╝[X]
 
 
-//BLOCK #012 NAME:		Supply Error Messages
+//BLOCK #013 NAME:		Supply Error Messages
 
 //POINTER #0 @ $5AEC8 - STRING #0 @ $5AEE2
 
@@ -5510,7 +5530,7 @@ LV10で[N]
 <$18><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$1A><$01>[X]
 
 
-//BLOCK #013 NAME:		Stat Booster Usage Messages
+//BLOCK #014 NAME:		Stat Booster Usage Messages
 
 //POINTER #0 @ $5D156 - STRING #0 @ $5D174
 
@@ -5621,7 +5641,7 @@ LV10で[N]
 ╚─────────────────╝[X]
 
 
-//BLOCK #014 NAME:		Battle Prep Menu
+//BLOCK #015 NAME:		Battle Prep Menu
 
 //POINTER #0 @ $59FA8 - STRING #0 @ $59FAA
 
@@ -5634,7 +5654,7 @@ LV10で[N]
 ╚────────╝[X]
 
 
-//BLOCK #015 NAME:		Battle Prep Menu
+//BLOCK #016 NAME:		Battle Prep Menu
 
 //POINTER #0 @ $5C644 - STRING #0 @ $5C650
 
@@ -5686,7 +5706,7 @@ LV10で[N]
 <$18><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$1A><$01>[X]
 
 
-//BLOCK #016 NAME:		Options Menus
+//BLOCK #017 NAME:		Options Menus
 
 //POINTER #0 @ $5BE0A - STRING #0 @ $5BE14
 
@@ -5738,7 +5758,7 @@ LV10で[N]
 ╚────╝[X]
 
 
-//BLOCK #017 NAME:		Weapon/Item Submenus
+//BLOCK #018 NAME:		Weapon/Item Submenus
 
 //POINTER #0 @ $5ACFA - STRING #0 @ $5AD06
 
@@ -5776,7 +5796,7 @@ LV10で[N]
 //╚─────╝[X]
 
 
-//BLOCK #018 NAME:		Main Supply Menu
+//BLOCK #019 NAME:		Main Supply Menu
 
 //POINTER #0 @ $5C4C8 - STRING #0 @ $5C4CA
 
@@ -5785,7 +5805,7 @@ LV10で[N]
 <$DB><$00>てる[X]
 
 
-//BLOCK #019 NAME:		Unused Debug Mode
+//BLOCK #020 NAME:		Unused Debug Mode
 
 //POINTER #0 @ $5C4E8 - STRING #0 @ $5C4F4
 
@@ -5830,7 +5850,7 @@ LV10で[N]
 //シーピーユーバージョン:[X]
 
 
-//BLOCK #020 NAME:		Door Opening
+//BLOCK #021 NAME:		Door Opening
 
 //POINTER #0 @ $5F95E - STRING #0 @ $5F960
 
@@ -5842,7 +5862,7 @@ LV10で[N]
 ╚────────────╝[X]
 
 
-//BLOCK #021 NAME:		Discarding an Item
+//BLOCK #022 NAME:		Discarding an Item
 
 //POINTER #0 @ $5A9F0 - STRING #0 @ $5A9FC
 
@@ -5886,7 +5906,7 @@ LV10で[N]
 ╚─────────────╝[X]
 
 
-//BLOCK #022 NAME:		Unit Animation Settings
+//BLOCK #023 NAME:		Unit Animation Settings
 
 //POINTER #0 @ $5C01C - STRING #0 @ $5C020
 
@@ -5911,7 +5931,7 @@ LV10で[N]
 ╚─────╝[X]
 
 
-//BLOCK #023 NAME:		Unknown
+//BLOCK #024 NAME:		Unknown
 
 //POINTER #0 @ $5C0C4 - STRING #0 @ $5C0D0
 
@@ -5979,7 +5999,7 @@ LV10で[N]
 <$11><$01>────────────────────<$12><$01>╚──────╝[X]
 
 
-//BLOCK #024 NAME:		Shop Menus
+//BLOCK #025 NAME:		Shop Menus
 
 //POINTER #0 @ $5BCFE - STRING #0 @ $5BD08
 
@@ -6024,7 +6044,7 @@ LV10で[N]
 ╚────╝[X]
 
 
-//BLOCK #025 NAME:		Dialogue
+//BLOCK #026 NAME:		Dialogue
 
 //POINTER #0 @ $71213 - STRING #0 @ $71831
 
@@ -6047,20 +6067,20 @@ LV10で[N]
 //POINTER #3 @ $7121C - STRING #3 @ $71959
 
 #W24($7121C)
-//[$0088]<$00>[$0092]<$00>[LoadFace]<$88><$04>ふゃ、おろかな![N]
+//[$0088]<$00>[$0092]<$00>[LoadFace]<$88><$04>ふっ、おろかな![N]
 わしに[Kanji3]<$74>[Kanji1]<$13>るとでも[Kanji2]<$B9>[Kanji1]<$4D>ておるのか![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #4 @ $7121F - STRING #4 @ $7198F
 
 #W24($7121F)
-//[$0088]<$00>[$0092]<$00>[LoadFace]<$88><$04>ぐゃ...そんなばかな...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[$0088]<$00>[$0092]<$00>[LoadFace]<$88><$04>ぐっ...そんなばかな...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #5 @ $71222 - STRING #5 @ $719AC
 
 #W24($71222)
-//[$0088]<$00>[$0092]<$00>[LoadFace]<$4B><$04>よかゃた...まにあゃたようだな...[N]
+//[$0088]<$00>[$0092]<$00>[LoadFace]<$4B><$04>よかった...まにあったようだな...[N]
 おまえたちは[Kanji2]<$DA>[Kanji1]<$2D>だすな![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
