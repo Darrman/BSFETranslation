@@ -1777,83 +1777,85 @@ Boots[X]
 
 //BLOCK #003 NAME:		Status Screen
 
+#JMP($5AD86, $5AEC7)
+
 //POINTER #0 @ $5AD66 - STRING #0 @ $5AD86
 
 #W16($5AD66)
-//LV  (EX)[N]
+LV  (EX)[N]
 HP   /[X]
 
 
 //POINTER #1 @ $5AD68 - STRING #1 @ $5ADA2
 
 #W16($5AD68)
-//<$E7><$00><$E8><$00>:[N]
-<$FF>あ<$01>:[N]
-<$F9><$00>ひ:[N]
-<$02><$01><$03><$01>:[N]
-<$E7><$00><$E9><$00>:[N]
-<$CB><$00><$EC><$00>:[X]
+At:[N]
+Ac:[N]
+Av:[N]
+Cr:[N]
+AS:[N]
+Ef:[X]
 
 
 //POINTER #2 @ $5AD6A - STRING #2 @ $5ADD2
 
 #W16($5AD6A)
-//ちから:[N]
- わざ:[N]
- <$E9><$00>さ:[N]
- <$ED><$00><$D7><$00>:[N]
- <$04><$01><$F8><$00>:[N]
- <$EA><$00><$EB><$00>:[N]
- <$D6><$00><$E2><$00>:[X]
+Str:[N]
+Skl:[N]
+Spd:[N]
+Lck:[N]
+WLv:[N]
+Def:[N]
+Res:[X]
 
 
 //POINTER #3 @ $5AD6C - STRING #3 @ $5AE18
 
 #W16($5AD6C)
-//さいだいHP:[N]
-いどうりょく:[X]
+Max HP:[N]
+  Move:[X]
 
 
 //POINTER #4 @ $5AD6E - STRING #4 @ $5AE38
 
 #W16($5AD6E)
-//アーマー<$FB><$00>[X]
+Armor[X]
 
 
 //POINTER #5 @ $5AD70 - STRING #5 @ $5AE44
 
 #W16($5AD70)
-// ナイト<$FB><$00>[X]
+Rpier[X]
 
 
 //POINTER #6 @ $5AD72 - STRING #6 @ $5AE50
 
 #W16($5AD72)
-//ドラゴン<$FB><$00>[X]
+Dragn[X]
 
 
 //POINTER #7 @ $5AD74 - STRING #7 @ $5AE5C
 
 #W16($5AD74)
-// ひこう<$FB><$00>[X]
+Flier[X]
 
 
 //POINTER #8 @ $5AD76 - STRING #8 @ $5AE68
 
 #W16($5AD76)
-//Sナイト<$FB><$00>[X]
+Horse[X]
 
 
 //POINTER #9 @ $5AD78 - STRING #9 @ $5AE74
 
 #W16($5AD78)
-//ようへい<$FB><$00>[X]
+Sword[X]
 
 
 //POINTER #10 @ $5AD7A - STRING #10 @ $5AE80
 
 #W16($5AD7A)
-// ぶぞく<$FB><$00>[X]
+Bandt[X]
 
 
 //POINTER #11 @ $5AD7C - STRING #11 @ $5AE8C
@@ -1865,171 +1867,174 @@ HP   /[X]
 //POINTER #12 @ $5AD7E - STRING #12 @ $5AE98
 
 #W16($5AD7E)
-// かりゅう[X]
+FireD[X]
 
 
 //POINTER #13 @ $5AD80 - STRING #13 @ $5AEA4
 
 #W16($5AD80)
-// ひょう竜[X]
+IceD[X]
 
 
 //POINTER #14 @ $5AD82 - STRING #14 @ $5AEB0
 
 #W16($5AD82)
-// ひりゅう[X]
+FlyD[X]
 
 
 //POINTER #15 @ $5AD84 - STRING #15 @ $5AEBC
 
 #W16($5AD84)
-//     [X]
+     [X]
 
 
 //BLOCK #004 NAME:		Menu Commands
 
+#JMP($5AB4A, $5ACF9)
+
 //POINTER #0 @ $5AB1A - STRING #0 @ $5AB4A
 
 #W16($5AB1A)
-║ はなす  │[X]
+║ Talk  │[X]
 
 
 //POINTER #1 @ $5AB1C - STRING #1 @ $5AB5C
 
 #W16($5AB1C)
-║ こうげき │[X]
+║ Attack│[X]
 
 
 //POINTER #2 @ $5AB1E - STRING #2 @ $5AB6E
 
-#W16($5AB1E)
-║ じょうほう│[X]
+#W16($5AB1E) //Visit house
+#W16($5AB24) //Visit village
+║ Visit │[X]
 
 
 //POINTER #3 @ $5AB20 - STRING #3 @ $5AB80
 
 #W16($5AB20)
-║ かいもの │[X]
+//║ Shop  │[X]
 
 
 //POINTER #4 @ $5AB22 - STRING #4 @ $5AB92
 
 #W16($5AB22)
-║ <$DF><$00><$E0><$00><$E1><$00>  │[X]
+//║ Arena │[X]
 
 
 //POINTER #5 @ $5AB24 - STRING #5 @ $5ABA4
 
-#W16($5AB24)
-║ むら   │[X]
+//#W16($5AB24) //Visit village
+//║ Visit │[X]
 
 
 //POINTER #6 @ $5AB26 - STRING #6 @ $5ABB6
 
 #W16($5AB26)
-║ せいあつ │[X]
+║ Seize │[X]
 
 
 //POINTER #7 @ $5AB28 - STRING #7 @ $5ABC8
 
 #W16($5AB28)
-║ とびら  │[X]
+║ Door  │[X]
 
 
 //POINTER #8 @ $5AB2A - STRING #8 @ $5ABDA
 
 #W16($5AB2A)
-║ はねばし │[X]
+//║ Lower│[X]
 
 
 //POINTER #9 @ $5AB2C - STRING #9 @ $5ABEC
 
 #W16($5AB2C)
-║ たからばこ│[X]
+║ Chest │[X]
 
 
 //POINTER #10 @ $5AB2E - STRING #10 @ $5ABFE
 
 #W16($5AB2E)
-║ ひみつの<$B3><$00>│[X]
+//║ Secret│[X]
 
 
 //POINTER #11 @ $5AB30 - STRING #11 @ $5AC10
 
 #W16($5AB30)
-║ たいき  │[X]
+║ Wait  │[X]
 
 
 //POINTER #12 @ $5AB32 - STRING #12 @ $5AC22
 
 #W16($5AB32)
-║ つえ   │[X]
+║ Staff │[X]
 
 
 //POINTER #13 @ $5AB34 - STRING #13 @ $5AC34
 
 #W16($5AB34)
-║ りゅうせき│[X]
+//║ Dragon│[X]
 
 
 //POINTER #14 @ $5AB36 - STRING #14 @ $5AC46
 
 #W16($5AB36)
-║ へんしん │[X]
+//║ Morph │[X]
 
 
 //POINTER #15 @ $5AB38 - STRING #15 @ $5AC58
 
 #W16($5AB38)
-║ おうえん │[X]
+//║ Dance │[X]
 
 
 //POINTER #16 @ $5AB3A - STRING #16 @ $5AC6A
 
 #W16($5AB3A)
-║ のる   │[X]
+║ Mount │[X]
 
 
 //POINTER #17 @ $5AB3C - STRING #17 @ $5AC7C
 
 #W16($5AB3C)
-║ おりる  │[X]
+║ Dismnt│[X]
 
 
 //POINTER #18 @ $5AB3E - STRING #18 @ $5AC8E
 
 #W16($5AB3E)
-║ ぶき   │[X]
+║ Weapon│[X]
 
 
 //POINTER #19 @ $5AB40 - STRING #19 @ $5ACA0
 
 #W16($5AB40)
-║ どうぐ  │[X]
+║ Item  │[X]
 
 
 //POINTER #20 @ $5AB42 - STRING #20 @ $5ACB2
 
 #W16($5AB42)
-║ <$CC><$00><$CD><$00><$CE><$00>  │[X]
+║ Supply│[X]
 
 
 //POINTER #21 @ $5AB44 - STRING #21 @ $5ACC4
 
 #W16($5AB44)
-║ せってい │[X]
+//║ Anims│[X]
 
 
 //POINTER #22 @ $5AB46 - STRING #22 @ $5ACD6
 
 #W16($5AB46)
-╔══════╗[X]
+╔═══════╗[X]
 
 
 //POINTER #23 @ $5AB48 - STRING #23 @ $5ACE8
 
 #W16($5AB48)
-╚──────╝[X]
+╚───────╝[X]
 
 
 //BLOCK #005 NAME:		Item Descriptions
