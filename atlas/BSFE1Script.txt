@@ -4169,6 +4169,7 @@ Back  Next          (     )[X]
 //Normally they'd just leave the animation setting
 //just sitting there unused! And this is a menu
 //that'd appreciate an expansion!
+//The expanded stuff's been moved
 
 //POINTER #0 @ $5BE0A - STRING #0 @ $5BE14
 
@@ -4184,10 +4185,10 @@ Back  Next          (     )[X]
 //POINTER #1 @ $5BE0C - STRING #1 @ $5BEE8
 
 #W16($5BE0C)
-╔═════╗[N2]
-║ Ster│[N]
-║ Mono│[N]
-╚─────╝[X]
+╔═══════╗[N2]
+║ Stereo│[N]
+║ Mono  │[N]
+╚───────╝[X]
 
 
 //POINTER #2 @ $5BE0E - STRING #2 @ $5BF28
@@ -4202,62 +4203,39 @@ Back  Next          (     )[X]
 ╚───────╝[X]
 
 
-//POINTER #3 @ $5BE10 - STRING #3 @ $5BFB4
-
-#W16($5BE10)
-╔═══╗[N2]
-║ On│[N]
-║ Of│[N]
-╚───╝[X]
-
-
-//POINTER #4 @ $5BE12 - STRING #4 @ $5BFE4
-
-#W16($5BE12)
-╔════╗[N2]
-║ Slo│[N]
-║ Fst│[N]
-╚────╝[X]
-
-
 //BLOCK #018 NAME:		Weapon/Item Submenus
 
 #JMP($5AD06, $5AD65)
-
-//POINTER #0 @ $5ACFA - STRING #0 @ $5AD06
-
-#W16($5ACFA)
-║ Equp│[X]
-
+//Moving some things out of the way
 
 //POINTER #1 @ $5ACFC - STRING #1 @ $5AD16
 
 #W16($5ACFC)
-║ Use │[X]
+║ Use  │[X]
 
 
 //POINTER #2 @ $5ACFE - STRING #2 @ $5AD26
 
 #W16($5ACFE)
-║ Trad│[X]
+║ Trade│[X]
 
 
 //POINTER #3 @ $5AD00 - STRING #3 @ $5AD36
 
 #W16($5AD00)
-║ Drop│[X]
+║ Drop │[X]
 
 
 //POINTER #4 @ $5AD02 - STRING #4 @ $5AD46
 
 #W16($5AD02)
-╔═════╗[X]
+╔══════╗[X]
 
 
 //POINTER #5 @ $5AD04 - STRING #5 @ $5AD56
 
 #W16($5AD04)
-╚─────╝[X]
+╚──────╝[X]
 
 
 //BLOCK #019 NAME:		Main Supply Menu
@@ -4266,11 +4244,11 @@ Back  Next          (     )[X]
 
 //POINTER #0 @ $5C4C8 - STRING #0 @ $5C4CA
 
-#W16($5C4C8)
+//#W16($5C4C8)
 //うけとる   <$DE><$00>ける[N]
 //<$DB><$00>てる[X]
-Take   Giv[N]
-Drp[X]
+//Take   Giv[N]
+//Drp[X]
 
 //BLOCK #020 NAME:		Unused Debug Mode
 
@@ -4384,6 +4362,29 @@ Drp[X]
 #JMP($5C020, $5C0C3)
 //Completely unused and the space can go to something else.
 
+//POINTER #0 @ $5ACFA - STRING #0 @ $5AD06
+
+#W16($5ACFA)
+║ Equip│[X]
+
+//POINTER #3 @ $5BE10 - STRING #3 @ $5BFB4
+
+#W16($5BE10)
+╔════╗[N2]
+║ On │[N]
+║ Off│[N]
+╚────╝[X]
+
+
+//POINTER #4 @ $5BE12 - STRING #4 @ $5BFE4
+
+#W16($5BE12)
+╔═════╗[N2]
+║ Slow│[N]
+║ Fast│[N]
+╚─────╝[X]
+
+
 //POINTER #0 @ $5C01C - STRING #0 @ $5C020
 
 #W16($5C01C)
@@ -4479,6 +4480,14 @@ Drp[X]
 //More unused stuff I can shove windows that need more room on top of.
 
 //POINTER #0 @ $5BCFE - STRING #0 @ $5BD08
+
+#W16($5C4C8)
+//うけとる   <$DE><$00>ける[N]
+//<$DB><$00>てる[X]
+//The colours are weird, but I'll take it over the abbreviation.
+Take   Give[N]
+Drop[X]
+
 
 #W16($5BCFE)
 //Gold[N]
@@ -5154,3 +5163,18 @@ Please stay safe...[Wait]<$20><$01>[ClearFace]<$02>[X]
 //[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$61><$04>もはや これまでですね...[Wait]<$20><$01>[ClearFace]<$02>[X]
 [TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$61><$04>
 So this is the end...[Wait]<$20><$01>[ClearFace]<$02>[X]
+
+
+//Out of battle messages
+#JMP($1491D)
+<$1B><$20><$3E><$20><$91><$20><$3E><$20>
+<$55><$20><$34><$20><$59><$20><$0B><$20>
+<$2E><$20><$81><$20><$2E><$20><$45><$20>
+<$24><$20><$49><$20><$16><$20><$58><$20>
+<$5D><$20><$18><$20><$5D><$20><$3E><$20>
+<$56><$20><$06><$20><$48><$20><$4D><$20>
+<$08><$20><$4D><$20><$2E><$20><$46><$20>
+<$11><$20><$5B><$20><$58><$20><$54><$20>
+<$3E><$20><$57><$20><$9A><$20><$01><$20>
+<$4B><$20><$48><$20><$44><$20><$2E><$20>
+<$47><$20><$8A><$20><$08><$DA>
