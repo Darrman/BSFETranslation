@@ -848,6 +848,18 @@
 //まりゅう[X]
 
 
+//POINTER #141 @ $5D798 - STRING #141 @ $5DD40
+
+#W16($5D798)
+//しんえいたい[X]
+
+
+//POINTER #142 @ $5D79A - STRING #142 @ $5DD4E
+
+#W16($5D79A)
+//グーベル[X]
+
+
 //BLOCK #001 NAME:		Class Names
 
 //POINTER #0 @ $5DD58 - STRING #0 @ $5DDB2
