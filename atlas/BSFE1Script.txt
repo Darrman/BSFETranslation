@@ -4,7 +4,7 @@
 #ADDTBL("menus.tbl", menus)
 #ACTIVETBL(menus)
 
-#HDR($50200)
+#HDR($50000)
 #JMP($5D79C, $5DD57)
 
 
@@ -1782,7 +1782,8 @@ Boots[X]
 //POINTER #0 @ $5AD66 - STRING #0 @ $5AD86
 
 #W16($5AD66)
-LV  (EX)[N]
+//LV  EX[N]
+LV  <$AD><$00><$AE><$00>[N]
 HP   /[X]
 
 
@@ -2472,8 +2473,8 @@ WLvl+5[X]
 
 #W16($5E816) //Pure Water
 //しようすると[N]
-まほうぼうぎょが[N]
-7あがる[X]
+//まほうぼうぎょが[N]
+//7あがる[X]
 
 
 //POINTER #102 @ $5E818 - STRING #102 @ $5F1B2
@@ -2920,7 +2921,7 @@ Avo: 0%[X]
 
 //BLOCK #007 NAME:		Unit Screen
 
-#JMP($5B4A8, $5B550)
+#JMP($5B4A8, $5B556)
 
 //POINTER #0 @ $5B49E - STRING #0 @ $5B4A8
 
@@ -3682,12 +3683,12 @@ general, Gouber[X]
 
 #W16($5D090)
 //メディウスをたおして[N]
-ぎょくざのせいあつ[X]
+//ぎょくざのせいあつ[X]
 
 
 //BLOCK #011 NAME:		Phase Messages
 
-#JMP($5D11C, $5D115)
+#JMP($5D11C, $5D155)
 
 //POINTER #0 @ $5D116 - STRING #0 @ $5D11C
 
@@ -4114,7 +4115,7 @@ Back  Next          (     )[X]
 //POINTER #0 @ $5C644 - STRING #0 @ $5C650
 
 #W16($5C644)
-     Maximum[X]
+   Maximum[X]
 
 
 //POINTER #1 @ $5C646 - STRING #1 @ $5C668
@@ -4221,7 +4222,7 @@ Back  Next          (     )[X]
 
 //BLOCK #018 NAME:		Weapon/Item Submenus
 
-#JMP($5AD06, 
+#JMP($5AD06, $5AD65)
 
 //POINTER #0 @ $5ACFA - STRING #0 @ $5AD06
 
@@ -4261,7 +4262,7 @@ Back  Next          (     )[X]
 
 //BLOCK #019 NAME:		Main Supply Menu
 
-#JMP($5C4CA, 
+#JMP($5C4CA, $5C4E7)
 
 //POINTER #0 @ $5C4C8 - STRING #0 @ $5C4CA
 
@@ -4279,19 +4280,19 @@ Drp[X]
 
 #W16($5C4E8)
 //デバッグモードです Bボタンでぬけます[N]
-げんざいのバージョン 1993/  /[X]
+//げんざいのバージョン 1993/  /[X]
 
 
 //POINTER #1 @ $5C4EA - STRING #1 @ $5C544
 
 #W16($5C4EA)
 //イベントフラグのせってい :[N]
-たいせんモードのせってい :[N]
-じょじきんのせってい   :      0[N]
-アイテムのせってい    :[N]
-ユニットのかおをみる   :[N]
-しょりオーバーフラグの[N]
-せってい :[X]
+//たいせんモードのせってい :[N]
+//じょじきんのせってい   :      0[N]
+//アイテムのせってい    :[N]
+//ユニットのかおをみる   :[N]
+//しょりオーバーフラグの[N]
+//せってい :[X]
 
 
 //POINTER #2 @ $5C4EC - STRING #2 @ $5C60E
@@ -4333,6 +4334,8 @@ Drp[X]
 
 
 //BLOCK #022 NAME:		Discarding an Item
+
+#JMP($5A9FC, $5AB19)
 
 //POINTER #0 @ $5A9F0 - STRING #0 @ $5A9FC
 
@@ -4524,6 +4527,7 @@ Drp[X]
 #ADDTBL("dialogueBSFEEN.tbl", dialogue)
 #ACTIVETBL(dialogue)
 
+#HDR($-878000)
 #JMP($71831, $71C00)
 
 //POINTER #0 @ $71213 - STRING #0 @ $71831
@@ -5069,7 +5073,7 @@ Timed event[N]
 //わしに[Kanji3]<$74>[Kanji1]<$13>るとでも[Kanji2]<$B9>[Kanji1]<$4D>ておるのか![Wait]<$20><$01>[ClearFace]<$02>[X]
 [TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$88><$04>
 Hmph. You fool![N]
-You mean nothing[N]
+You are nothing[N]
 to me![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 //POINTER #4 @ $7121F - STRING #4 @ $7198F
