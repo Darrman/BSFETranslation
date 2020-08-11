@@ -6067,20 +6067,20 @@ LV10で[N]
 //POINTER #1 @ $71216 - STRING #1 @ $7190E
 
 #W24($71216)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$61><$04>[Kanji3]<$21>ヴ[Kanji1]<$52>ベント([Kanji2]<$24>ゆ[Kanji1]<$B4>[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$61><$04>[Kanji3]<$21>ヴ[Kanji1]イベント([Kanji2]<$24>ゆ[Kanji1])[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #2 @ $71219 - STRING #2 @ $71933
 
 #W24($71219)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$61><$04>[Kanji3]<$21>ヴ[Kanji1]<$52>ベント([Kanji2]<$89>デ[Kanji1]<$B4><$C3>[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$61><$04>[Kanji3]<$21>ヴ[Kanji1]イベント([Kanji2]<$89>デ[Kanji1])<$C3>[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #3 @ $7121C - STRING #3 @ $71959
 
 #W24($7121C)
 //[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$88><$04>ふっ、おろかな![N]
-わしに[Kanji3]<$74>[Kanji1]<$13>るとでも[Kanji2]<$B9>[Kanji1]<$4D>ておるのか![Wait]<$20><$01>[ClearFace]<$02>[X]
+わしに[Kanji3]<$74>[Kanji1]てるとでも[Kanji2]<$B9>[Kanji1]っておるのか![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #4 @ $7121F - STRING #4 @ $7198F
@@ -6093,7 +6093,7 @@ LV10で[N]
 
 #W24($71222)
 //[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$4B><$04>よかった...まにあったようだな...[N]
-おまえたちは[Kanji2]<$DA>[Kanji1]<$2D>だすな![Wait]<$20><$01>[ClearFace]<$02>[X]
+おまえたちは[Kanji2]<$DA>[Kanji1]をだすな![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #6 @ $71225 - STRING #6 @ $71831

@@ -6085,38 +6085,38 @@ LV10で[N]
 //POINTER #1 @ $71216 - STRING #1 @ $71862
 
 #W24($71216)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$4B><$04>ニーナ[Kanji2]<$5D>[Kanji1]<$26>...[Kanji2]<$95><$CC>[Kanji1]<$3C>いてくれ...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$4B><$04>ニーナ[Kanji2]<$5D>[Kanji1]よ...[Kanji2]<$95><$CC>[Kanji1]でいてくれ...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #2 @ $71219 - STRING #2 @ $7188B
 
 #W24($71219)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$03><$04>カミユさま...お<$00>と.[Kanji1]<$0C>ください...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$03><$04>カミユさま...お<$00>と.[Kanji1]しください...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #3 @ $7121C - STRING #3 @ $718B0
 
 #W24($7121C)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$04><$04>カミユさま...お<$00>と.[Kanji1]<$0C>ください...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$04><$04>カミユさま...お<$00>と.[Kanji1]しください...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #4 @ $7121F - STRING #4 @ $718D5
 
 #W24($7121F)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$06><$04>カミユさま...お<$00>と.[Kanji1]<$0C>ください...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$06><$04>カミユさま...お<$00>と.[Kanji1]しください...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #5 @ $71222 - STRING #5 @ $718FA
 
 #W24($71222)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$67><$04>このきずぐすりをお[Kanji2]<$AD>[Kanji1]<$11>ください.[N]
-どうかお[Kanji2]<$09>[Kanji1]<$2D>つけて...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$67><$04>このきずぐすりをお[Kanji2]<$AD>[Kanji1]ちください.[N]
+どうかお[Kanji2]<$09>[Kanji1]をつけて...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #6 @ $71225 - STRING #6 @ $71931
 
 #W24($71225)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$8A><$04><$00>ねい[Kanji2]<$F6>[Kanji1]<$28>ものめ! [Kanji3]<$31>[Kanji1]<$18>!![Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$8A><$04><$00>ねい[Kanji2]<$F6>[Kanji1]りものめ! [Kanji3]<$31>[Kanji1]ね!![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #7 @ $71228 - STRING #7 @ $7195A

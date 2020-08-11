@@ -6085,8 +6085,8 @@ LV10で[N]
 //POINTER #1 @ $71216 - STRING #1 @ $718A9
 
 #W24($71216)
-//[TargetTop]<$00>[TargetBottom]<$01>[LoadFace]<$07><$07>ねえ、おいらの[Kanji3]<$A5>[Kanji2]<$51>[Kanji1]<$16>なってよ[N]
-[Kanji2]<$A4>[Kanji1]<$1A>すきなだけやるからさぁ[A]
+//[TargetTop]<$00>[TargetBottom]<$01>[LoadFace]<$07><$07>ねえ、おいらの[Kanji3]<$A5>[Kanji2]<$51>[Kanji1]になってよ[N]
+[Kanji2]<$A4>[Kanji1]はすきなだけやるからさぁ[A]
 [TargetBottom]<$00>[LoadFace]<$19><$04>うっ、うそじゃねぇな...[N]
 よし、ひきうけたぜ!![A]
 [ClearFace]<$02>[ClearFace]<$03>[X]
@@ -6101,8 +6101,8 @@ LV10で[N]
 //POINTER #3 @ $7121C - STRING #3 @ $7194C
 
 #W24($7121C)
-//[TargetTop]<$00>[TargetBottom]<$01>[LoadFace]<$07><$07>ねえ、おいらの[Kanji3]<$A5>[Kanji2]<$51>[Kanji1]<$16>なってよ[N]
-[Kanji2]<$A4>[Kanji1]<$1A>すきなだけやるからさぁ[A]
+//[TargetTop]<$00>[TargetBottom]<$01>[LoadFace]<$07><$07>ねえ、おいらの[Kanji3]<$A5>[Kanji2]<$51>[Kanji1]になってよ[N]
+[Kanji2]<$A4>[Kanji1]はすきなだけやるからさぁ[A]
 [TargetBottom]<$00>[LoadFace]<$1A><$04>なに、ほんとうか?[N]
 よし、ひきうけたぜ!![A]
 [ClearFace]<$02>[ClearFace]<$03>[X]
@@ -6117,7 +6117,7 @@ LV10で[N]
 //POINTER #5 @ $71222 - STRING #5 @ $719EC
 
 #W24($71222)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$34><$04>[Kanji2]<$8C>[Kanji1]<$10>ちのじゃまをするやつは[N]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$34><$04>[Kanji2]<$8C>[Kanji1]たちのじゃまをするやつは[N]
 ようしゃしねぇ![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
@@ -6131,21 +6131,21 @@ LV10で[N]
 
 #W24($71228)
 //[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$19><$04>がははは、[N]
-これも[Kanji2]<$A4>[Kanji1]<$19>ためだ、ゆるせよ[Wait]<$20><$01>[ClearFace]<$02>[X]
+これも[Kanji2]<$A4>[Kanji1]のためだ、ゆるせよ[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #8 @ $7122B - STRING #8 @ $719C0
 
 #W24($7122B)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$1A><$04>ここは<$00>と9[Kanji1]<$0B>ない、[Kanji2]<$70>[Kanji1]<$08>[Kanji2]<$B9>[Kanji1]<$03>な[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$1A><$04>ここは<$00>と9[Kanji1]さない、[Kanji2]<$70>[Kanji1]く[Kanji2]<$B9>[Kanji1]うな[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #9 @ $7122E - STRING #9 @ $71A3C
 
 #W24($7122E)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$4B><$04>[Kanji2]<$40><$C3>[Kanji1]<$19>[Kanji2]<$89><$C4>[Kanji1]<$0A>をおそうとは[N]
-[Kanji2]<$B8>[Kanji1]<$2A>をしらぬ[Kanji2]<$13>[Kanji1]<$10>ちだな、[N]
-よし! [Kanji2]<$E4>[Kanji3]<$E1>[Kanji1]<$14>らえよ!![Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$4B><$04>[Kanji2]<$40><$C3>[Kanji1]の[Kanji2]<$89><$C4>[Kanji1]こをおそうとは[N]
+[Kanji2]<$B8>[Kanji1]れをしらぬ[Kanji2]<$13>[Kanji1]たちだな、[N]
+よし! [Kanji2]<$E4>[Kanji3]<$E1>[Kanji1]とらえよ!![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #10 @ $71231 - STRING #10 @ $7182E

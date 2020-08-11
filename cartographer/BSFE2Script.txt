@@ -6086,43 +6086,43 @@ LV10で[N]
 
 #W24($71219)
 //[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$8A><$04>ま、まってくれ、[N]
-[Kanji2]<$25>[Kanji1]<$0B>ないでくれ!![Wait]<$20><$01>[ClearFace]<$02>[X]
+[Kanji2]<$25>[Kanji1]さないでくれ!![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #3 @ $7121C - STRING #3 @ $71904
 
 #W24($7121C)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$68><$04>このきずぐすりをお[Kanji2]<$AD>[Kanji1]<$11>ください.[N]
-どうかお[Kanji2]<$09>[Kanji1]<$2D>つけて...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$68><$04>このきずぐすりをお[Kanji2]<$AD>[Kanji1]ちください.[N]
+どうかお[Kanji2]<$09>[Kanji1]をつけて...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #4 @ $7121F - STRING #4 @ $7193B
 
 #W24($7121F)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$67><$04>このきずぐすりをお[Kanji2]<$AD>[Kanji1]<$11>ください.[N]
-どうかお[Kanji2]<$09>[Kanji1]<$2D>つけて...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$67><$04>このきずぐすりをお[Kanji2]<$AD>[Kanji1]ちください.[N]
+どうかお[Kanji2]<$09>[Kanji1]をつけて...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #5 @ $71222 - STRING #5 @ $71972
 
 #W24($71222)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$71><$04>ああ...[Kanji2]<$56>[Kanji1]<$09>に[Kanji2]<$47>[Kanji1]<$13>くださったのですね![N]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$71><$04>ああ...[Kanji2]<$56>[Kanji1]けに[Kanji2]<$47>[Kanji1]てくださったのですね![N]
 ありがとうございます!![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #6 @ $71225 - STRING #6 @ $719AD
 
 #W24($71225)
-//[TargetTop]<$00>[TargetBottom]<$01>[LoadFace]<$1E><$07>フロスト[Kanji3]<$08>け[Kanji1]<$AE>?[A]
+//[TargetTop]<$00>[TargetBottom]<$01>[LoadFace]<$1E><$07>フロスト[Kanji3]<$08>け[Kanji1]!?[A]
 [N]
-[Kanji2]<$D5>ギ[Kanji1]<$1F>で[Kanji2]<$70><$CC>[Kanji1]<$16>かたんするとは...[A]
+[Kanji2]<$D5>ギ[Kanji1]まで[Kanji2]<$70><$CC>[Kanji1]にかたんするとは...[A]
 [N]
-へんとうしだいによっては、[Kanji3]<$08>け[Kanji1]<$14>いえども[N]
+へんとうしだいによっては、[Kanji3]<$08>け[Kanji1]といえども[N]
 ゆるしはせぬぞ!![A]
 [TargetBottom]<$00>[LoadFace]<$8A><$04>あわわ...ミネルバさま!![N]
 もうしわけございません![N]
-<$00>と<$EA>[Kanji1]<$1A><$00>とペポ[Kanji1]<$02>たします...[N]
-どうか、どうかお<$00>と.[Kanji1]<$0C>ください![A]
+<$00>と<$EA>[Kanji1]は<$00>とペポ[Kanji1]いたします...[N]
+どうか、どうかお<$00>と.[Kanji1]しください![A]
 [ClearFace]<$02>[ClearFace]<$03>[X]
 
 
@@ -6135,13 +6135,13 @@ LV10で[N]
 //POINTER #8 @ $7122B - STRING #8 @ $71A78
 
 #W24($7122B)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$8A><$04>これも[Kanji2]<$30>[Kanji3]<$14>[Kanji1]<$06>...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$8A><$04>これも[Kanji2]<$30>[Kanji3]<$14>[Kanji1]か...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #9 @ $7122E - STRING #9 @ $71AC2
 
 #W24($7122E)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$83><$04>がははは、[Kanji3]<$31>[Kanji1]<$17>のはてめぇらだ!![Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$83><$04>がははは、[Kanji3]<$31>[Kanji1]ぬのはてめぇらだ!![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #10 @ $71231 - STRING #10 @ $71AE9
@@ -6154,7 +6154,7 @@ LV10で[N]
 
 #W24($71234)
 //[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$2F><$04>ミネルバさま![N]
-マケドニア[Kanji2]<$33>[Kanji1]<$2D>つれて[N]
+マケドニア[Kanji2]<$33>[Kanji1]をつれて[N]
 ただいまもどりました!![Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
@@ -7823,7 +7823,7 @@ LV10で[N]
 //POINTER #289 @ $71576 - STRING #289 @ $71860
 
 #W24($71576)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$14><$04>ハーディンさま、ご[Kanji2]<$D0>ぎ[Kanji1]<$2D>...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$14><$04>ハーディンさま、ご[Kanji2]<$D0>ぎ[Kanji1]を...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #290 @ $71579 - STRING #290 @ $7182E
@@ -7835,7 +7835,7 @@ LV10で[N]
 //POINTER #291 @ $7157C - STRING #291 @ $71884
 
 #W24($7157C)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$16><$04>ハーディンさま、ご[Kanji2]<$D0>ぎ[Kanji1]<$2D>...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$16><$04>ハーディンさま、ご[Kanji2]<$D0>ぎ[Kanji1]を...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #292 @ $7157F - STRING #292 @ $7182E
@@ -7883,7 +7883,7 @@ LV10で[N]
 //POINTER #299 @ $71594 - STRING #299 @ $718C5
 
 #W24($71594)
-//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$1E><$04>くっ...<$00>と<$EA>[Kanji1]<$14>したことが...[Wait]<$20><$01>[ClearFace]<$02>[X]
+//[TargetTop]<$00>[TargetBottom]<$00>[LoadFace]<$1E><$04>くっ...<$00>と<$EA>[Kanji1]としたことが...[Wait]<$20><$01>[ClearFace]<$02>[X]
 
 
 //POINTER #300 @ $71597 - STRING #300 @ $7182E
