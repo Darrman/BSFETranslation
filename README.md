@@ -3,7 +3,35 @@
  Akaneia Saga into English.
 
 Patching Instructions:
+1: Aquire roms of each individual episode of the game. I cannot direct you
+to where these can be found.
+2: Apply patches to the appropriate rom. "BSFE1.ips" is applied to the
+Episode 1 rom, and so on. Ensure Lunar IPS is downloaded.
+3: ZSNES ONLY: Apply the appropriate patch in the "fepatches" folder.
+Otherwise, the emulator will only produce a black screen on load. I suggest
+soft-patching the rom with these. To do so, name your patch the same as the
+rom. Eg: "BSFE1Eng.sfc", "BSFE1Eng.ips". SKIP THIS STEP IF NOT USING ZSNES!
+4: Load the rom using your emulator of choice. It is recommended to load the
+episodes through the BS-X BIOS. I cannot provide this. Once inside the BIOS,
+proceed through initial setup if necessary and then enter your house.
+Select the top option (Load Stored Data) and select the only option. It should
+be labelled "BSFireEmblem EpX", with X being the appropriate episode number.
+5: Adjust the clock if necessary. BSNES+ defaults to using system time. To
+change this, go to Settings -> Configuration -> BS-X and set the time as
+appropriate. Each episode is intended to start roughly ten minutes past the
+hour.
 
+Known Issues:
+* Some letters highlight incorrectly in the storage menu.
+* Eight letter names bleed into the border of certain menus.
+* The menu that appears when you select nobody doesn't fully clear when exited.
+
+Please note that these patches translate everything present inside the roms.
+It does not in any way restore missing elements of presentation, such as the
+illustrations or voice acting. The game is silent and it is recommended to
+listen to videos of audio from recordings of the original broadcast.
+I fully encourage using this as a base for any restoration attempts. Please
+contact me if you plan to attempt one.
 
 History:
 The year is 1997. Two years have passed since the release of Nintendo's
