@@ -30,8 +30,14 @@ Please note that these patches translate everything present inside the roms.
 It does not in any way restore missing elements of presentation, such as the
 illustrations or voice acting. The game is silent and it is recommended to
 listen to videos of audio from recordings of the original broadcast.
-I fully encourage using this as a base for any restoration attempts. Please
-contact me if you plan to attempt one.
+I fully encourage using this as a base for any restoration attempts. However,
+please ask me for permission before using my work here.
+
+Credits:
+* All hacking work by Darrman.
+* Font taken from VincentASM/RPGuy FE3 translation
+* Some unused script blocks taken from bookofholsety's TCRF contributions
+and edited to fit better in game
 
 History:
 The year is 1997. Two years have passed since the release of Nintendo's
