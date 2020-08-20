@@ -2607,12 +2607,12 @@ Paola[X]
 ////きょうせんし[X]
 //
 //
-////POINTER #122 @ $5D7AE - STRING #122 @ $5DC9E
-//
-//#W16($5D7AE)
-////さんぞく[X]
-//
-//
+//POINTER #122 @ $5D7AE - STRING #122 @ $5DC9E
+
+#W16($5D7AE)
+//さんぞく[X]
+Bandit[X]
+
 //POINTER #123 @ $5D7B0 - STRING #123 @ $5DCA8
 
 #W16($5D7B0)
@@ -2814,7 +2814,7 @@ Dragon[X]
 
 #W16($5DDC4)
 //ハンター[X]
-
+Hunter[X]
 
 //POINTER #12 @ $5DDC6 - STRING #12 @ $5DE8E
 
@@ -2922,7 +2922,7 @@ Bishop[X]
 
 #W16($5DDE8)
 //さんぞく[X]
-
+Brigand[X]
 
 //POINTER #30 @ $5DDEA - STRING #30 @ $5DF20
 
