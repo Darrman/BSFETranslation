@@ -21,6 +21,10 @@ change this, go to Settings -> Configuration -> BS-X and set the time as
 appropriate. Each episode is intended to start roughly ten minutes past the
 hour.
 
+Changelog:
+v1.01: Corrected missing enemy name and incorrect class names in Episode 2.
+v1.0: Initial release.
+
 Known Issues:
 * Some letters highlight incorrectly in the storage menu.
 * Eight letter names bleed into the border of certain menus.
